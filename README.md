@@ -61,6 +61,7 @@ The project was deployed using **Streamlit**, providing an interactive web inter
 ```
 ## 4. The application will open in your browser, allowing you to interact with the prediction models and view results.
 ### Project Structure
+```bash
 employee-churn-prediction/
 ├── app.py                   # Main Streamlit application script
 ├── data/                    # Directory containing the dataset
@@ -68,3 +69,4 @@ employee-churn-prediction/
 ├── notebooks/               # Jupyter notebooks with EDA, clustering, and model training processes
 ├── requirements.txt         # Required Python packages for running the project
 └── README.md                # This file
+```
