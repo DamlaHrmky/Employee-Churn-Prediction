@@ -73,18 +73,18 @@ employee-churn-prediction/
 ### Visualization of Streamlit File
 Below are screenshots from the Streamlit app:
 ![1](https://github.com/user-attachments/assets/880ac040-95bc-4c45-a9a0-1c336718d918)
-(`---`)
+---
 ![2](https://github.com/user-attachments/assets/23666f0d-00aa-45a4-8a3b-e2d663335d19)
-(`---`)
+---
 ![3](https://github.com/user-attachments/assets/f8e8a6a2-51b1-4550-a73c-928eed963b09)
-(`---`)
+---
 ![4](https://github.com/user-attachments/assets/8dd06ae0-d64a-4281-baf0-fd2353bc7a6a)
-(`---`)
+---
 ![5](https://github.com/user-attachments/assets/9feaaf90-f7cb-4853-95d4-3f3fbc709994)
-(`---`)
+---
 ![6](https://github.com/user-attachments/assets/c89eaa09-6194-414a-bb61-23c156461535)
-(`---`)
+---
 ![7](https://github.com/user-attachments/assets/31ce90b0-a82e-464b-b5f7-d51339ebbed1)
-(`---`)
+---
 
 
