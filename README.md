@@ -49,17 +49,17 @@ The project was deployed using **Streamlit**, providing an interactive web inter
    ```bash
    git clone <repository_url>
    cd employee-churn-prediction
- 2. Install dependencies::
+```
+ ## 2. Install dependencies::
 
    ```bash
    pip install -r requirements.txt
+ ```
 ## 3. Run the Streamlit application:
    ```bash
-   streamlit run app.py 
-## 4. The application will open in your browser, allowing you to interact with the prediction models and view results.
+   streamlit run app.py
 ```
-
-
+## 4. The application will open in your browser, allowing you to interact with the prediction models and view results.
 ### Project Structure
 employee-churn-prediction/
 ├── app.py                   # Main Streamlit application script
