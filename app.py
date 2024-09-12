@@ -358,9 +358,9 @@ def prediction_page():
     time_spent_company = st.slider("Time Spent at Company (in years)", min_time_spent_company, max_time_spent_company, int((min_time_spent_company + max_time_spent_company) / 2), step=1)
     features_list['time_spend_company'] = time_spent_company
     work_accident = st.checkbox("Work Accident")
-    features_list['work_accident'] = 1 if work_accident else 0
+    features_list['work_accident'] = 'Yes' if work_accident else 'No'
     promotion_last_5years = st.checkbox("Promotion in Last 5 Years")
-    features_list['promotion_last_5years'] = 1 if promotion_last_5years else 0
+    features_list['promotion_last_5years'] = 'Yes' if promotion_last_5years else 'No'
     departments = df['departments'].unique()
     department = st.selectbox("Department", departments)
     features_list['departments'] = department
@@ -481,7 +481,7 @@ if selected == "Home":
     st.sidebar.markdown("""
         <div class="team-section">
             <h3 align=center>Development Team</h3>
-            <p>Aysegül, Damla, Emre, Esra, Ezgi</p>
+            <p >Aysegül, Damla,Esra, Emre, Ezgi</p>
             <p align=center>Built with <span class="heart">❤️</span></p>
         </div>
         """, unsafe_allow_html=True)
